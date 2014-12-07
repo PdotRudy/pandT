@@ -1,0 +1,12 @@
+==
+<nav>
+    <ul class="main-nav nav nav-justified">
+        <li class="{{ viewBag.activeMenu == 'home' ? 'active' }}"><a id="home-link" title="Home" href="{{ '/'|app }}"><i class="flaticon-house4"></i>Dashboard Home</a></li>
+        <li class="{{ viewBag.activeMenu == 'portfolio' ? 'active' }}"><a id="performance-link" title="Performance Comparison" href="{{ '/portfolio'|app }}"><i class="flaticon-business183"></i><span class="link-text">Performance Comparison</span></a></li>
+        <li class="{{ viewBag.activeMenu == 'clipper' ? 'active' }}" ><a id="clipper-link" title="The Clipper" href="{{ '/clipper'|app }}"><i class="flaticon-sailboat"></i><span class="link-text">The Clipper</span></a></li>
+        <li class="{{ viewBag.activeMenu == 'steamer' ? 'active' }}"><a id="steamer-link" title="The Steamer" href="{{ '/steamer'|app }}"><i class="flaticon-cargo1"></i><span class="link-text">The Steamer</span></a></li>
+        <li class="{{ viewBag.activeMenu == 'learning' ? 'active' }}"><a id="learning-link" title="Learning Center" href="{{ '/learning-center'|app }}"><i class="flaticon-light95"></i><span class="link-text">Learning Center</span></a></li>
+        <li class="{{ viewBag.activeMenu == 'navigation' ? 'active' }}"><a id="experts-link" title="Navigation Experts" href="{{ '/navigation-experts'|app }}"><i class="flaticon-compass112"></i><span class="link-text">Navigation Experts</span></a></li>
+        <li class="{{ viewBag.activeMenu == 'contact' ? 'active' }}"><a id="contact-link" title="Contact" href="{{ '/contact'|app }}"><i class="flaticon-talking2"></i><span class="link-text">Contact</span></a></li>
+    </ul>
+</nav>

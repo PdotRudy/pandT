@@ -1,0 +1,26 @@
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>October CMS - {{ this.page.title }}</title>
+        <meta name="author" content="October CMS">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/navigator-icon.png'|theme }}" />
+        {% styles %}
+        <link href="{{ [
+            'assets/css/theme.css'
+        ]|theme }}" rel="stylesheet">
+        
+        <link rel="stylesheet" href="{{ 'assets/javascript/amcharts/style.css'|theme }}"	type="text/css">
+        
+        <script src="{{ 'assets/javascript/amcharts/amcharts.js'|theme }}" type="text/javascript"></script>
+		<script src="{{ 'assets/javascript/amcharts/serial.js'|theme }}" type="text/javascript"></script>
+		<script src="{{ 'assets/javascript/amcharts/amstock.js'|theme }}" type="text/javascript"></script>
+		<script src="{{ 'assets/javascript/amcharts/portfolio-chart.js'|theme }}" type="text/javascript"></script>
+    </head>
+    <body>
+    <header id="inner-header">
+        <div id="logo">
+            <img src="http://market.lunaclicks.com/themes/marketmoney/assets/images/navigator-logotxt.png" alt="The Market Navigator" />
+        </div>
+    </header>

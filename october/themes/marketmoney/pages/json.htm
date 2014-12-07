@@ -1,0 +1,12 @@
+title = "JSON"
+url = "/json"
+description = "The JSON output from the database."
+hidden = "0"
+==
+<?php
+function onStart() {
+    $this['data'] = "Looking for data?";
+}
+?>
+==
+<h3> {{ data }} </h3>

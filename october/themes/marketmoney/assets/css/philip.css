@@ -1,0 +1,56 @@
+body {
+    background: url('../images/bg.jpg');
+}
+.active {
+    background: rgba(210,231,228,.8) !important;
+    color: #37231c !important;
+    border-left: 1px solid rgba(0,0,0, .1);
+    border-right: 1px solid rgba(0,0,0, .1);
+}
+
+.active:hover {
+
+}
+
+.active a{
+    color: rgba(28,48,55,1) !important;
+}
+#inner-header {
+    background: #1c3037;
+}
+nav .main-nav li {
+    cursor: pointer;
+}
+
+nav .main-nav li a {
+    color: #37231c !important;
+    text-transform: uppercase;
+
+}
+
+nav .main-nav li a:hover {
+    background: #37231c !important;
+    color: white !important;
+}
+
+nav .main-nav li a i {
+    display: block;
+}
+
+.link-text {
+    display: block;
+}
+
+.column-headers {
+    
+}
+
+.column-headers h3 {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0.5rem 1rem;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.05);
+    margin: 0;
+    font-family: "Crimson Text", serif;
+}

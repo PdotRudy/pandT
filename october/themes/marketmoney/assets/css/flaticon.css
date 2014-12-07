@@ -1,0 +1,55 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("flaticon.eot");
+	src: url("flaticon.eot#iefix") format("embedded-opentype"),
+	url("flaticon.woff") format("woff"),
+	url("flaticon.ttf") format("truetype"),
+	url("flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+font-family: Flaticon;
+font-size: 20px;
+font-style: normal;
+
+}.flaticon-admit:before {
+	content: "\e000";
+}
+.flaticon-ascending24:before {
+	content: "\e001";
+}
+.flaticon-business183:before {
+	content: "\e002";
+}
+.flaticon-cargo1:before {
+	content: "\e003";
+}
+.flaticon-compass112:before {
+	content: "\e004";
+}
+.flaticon-compass29:before {
+	content: "\e005";
+}
+.flaticon-download165:before {
+	content: "\e006";
+}
+.flaticon-eye47:before {
+	content: "\e007";
+}
+.flaticon-house4:before {
+	content: "\e008";
+}
+.flaticon-light95:before {
+	content: "\e009";
+}
+.flaticon-sailboat:before {
+	content: "\e00a";
+}
+.flaticon-sold3:before {
+	content: "\e00b";
+}
+.flaticon-talking2:before {
+	content: "\e00c";
+}

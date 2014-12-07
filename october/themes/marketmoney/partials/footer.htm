@@ -1,0 +1,29 @@
+description = "Footer"
+==
+<!-- FOOTER -->
+      <footer id="home-footer">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                    <p>© 2014 The Market Navigator. All rights reserved.</p>
+            </div>
+        <div class="col-md-7">
+            <ul class="nav navbar-nav pull-right">
+                            <li class="{% if this.page.id == 'blog' %}active{% endif %}"><a href="{{ 'blog'|page }}">Our Advantage Vs Global Index</a></li>
+                            <li class="{% if this.page.id == 'ajax' %}active{% endif %}"><a href="{{ 'ajax'|page }}">Learning Center</a></li>
+                            <li class="{% if this.page.id == 'plugins' %}active{% endif %}"><a href="{{ 'plugins'|page }}">Investment Expertise</a></li>
+                            <li class="{% if this.page.id == 'plugins' %}active{% endif %}"><a  class="subscribe-footer"  href="{{ 'plugins'|page }}">Subscribe</a></li>
+                        </ul>
+        </div>
+        </div>
+        </div>
+      </footer>
+
+    </div><!-- /.container -->
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	<script src="{{ 'assets/javascript/jquery.functions.js'|theme }}" type="text/javascript"></script>		
+
+</body>
+</html>
